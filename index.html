@@ -9,8 +9,13 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             text-align: center;
-            padding: 50px;
+            margin: 0;
         }
 
         /* Titre */
@@ -27,14 +32,15 @@
             margin-bottom: 20px;
         }
 
-        /* Image stylée */
+        /* Image centrée */
         img {
+            width: 300px;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
             margin-bottom: 20px;
         }
 
-        /* Bouton stylé */
+        /* Bouton stylé et centré */
         .bouton {
             display: inline-block;
             padding: 12px 25px;
@@ -45,6 +51,7 @@
             border-radius: 5px;
             transition: 0.3s ease-in-out;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
         }
 
         /* Effet au survol */
@@ -58,10 +65,10 @@
     <h1>Découvrez notre basket innovante</h1>
     <p>Un design futuriste et une technologie de pointe.</p>
 
-    <!-- Image placée sous le texte -->
-    <img src="sneak.png" alt="Ma Basket Révolutionnaire" width="300">
+    <!-- Image bien centrée -->
+    <img src="sneak.png" alt="Ma Basket Révolutionnaire">
 
-    <!-- Bouton placé sous l'image -->
+    <!-- Bouton bien centré -->
     <a href="#" class="bouton">En savoir plus</a>
 </body>
 </html>
